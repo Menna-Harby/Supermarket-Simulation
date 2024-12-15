@@ -57,9 +57,7 @@ The Supermarket Management Simulator is a Java-based interactive game where play
 4. **Exit the Simulator**: Ends the game.  
 
 ### **Profit Calculation Formula**  
-\[
-\text{Profit} = (\text{Restocking Cost} \times \text{Efficiency} \times 1.3) - (\text{Expenses})
-\]
+Profit = Restocking Cost * Efficiency} * 1.3 - Expenses
 
 ### **Game End**  
 - Players can exit anytime or continue indefinitely to grow their business.
