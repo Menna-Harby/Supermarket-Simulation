@@ -57,7 +57,7 @@ The Supermarket Management Simulator is a Java-based interactive game where play
 4. **Exit the Simulator**: Ends the game.  
 
 ### **Profit Calculation Formula**  
-Profit = Restocking Cost * Efficiency} * 1.3 - Expenses
+Profit = Restocking Cost * Efficiency * 1.3 - Expenses
 
 ### **Game End**  
 - Players can exit anytime or continue indefinitely to grow their business.
@@ -126,10 +126,9 @@ Profit = Restocking Cost * Efficiency} * 1.3 - Expenses
    - **Restocking Cost**: $700.  
    - **Efficiency Modifier**: 90% efficiency from Employee A.  
    - **Income Formula**:  
-     \[
-     \text{Income} = \text{Restocking Cost} \times \text{Efficiency} \times 1.3  
-     = 700 \times 0.9 \times 1.3 = 819
-     \]  
+     Income = Restocking Cost* Efficiency * 1.3  
+     = 700 * 0.9 * 1.3 = 819
+     
    - **Expenses**:  
      - Rent: $30  
      - Electricity: $15  
@@ -137,10 +136,9 @@ Profit = Restocking Cost * Efficiency} * 1.3 - Expenses
      - Employee Salary: $50  
      - Total Expenses = $30 + $15 + $700 + $50 = $795.  
    - **Profit Formula**:  
-     \[
-     \text{Profit} = \text{Income} - \text{Expenses}  
+     Profit = Income - Expenses  
      = 819 - 795 = 104
-     \]  
+     
 
 4. **Updated Balance**:  
    - Starting balance after restocking: $300.  
@@ -168,9 +166,8 @@ Profit = Restocking Cost * Efficiency} * 1.3 - Expenses
    - **Restocking Cost**: $370.  
    - **Efficiency Modifier**: 90% efficiency from Employee A.  
    - **Income**:  
-     \[
-     \text{Income} = 370 \times 0.9 \times 1.3 = 433.5
-     \]  
+     Income = 370 * 0.9 * 1.3 = 433.5
+     
    - **Expenses**:  
      - Rent: $30  
      - Electricity: $15  
