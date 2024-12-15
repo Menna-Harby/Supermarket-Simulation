@@ -179,9 +179,9 @@ The Supermarket Management Simulator is a Java-based interactive game where play
      - Employee Salary: $50  
      - Total Expenses = $30 + $15 + $50 = $95.  
    - **Profit Formula**:  
-     \[
-     \text{Profit} = \text{Income} - \text{Expenses} = 433.5 - 95 = 338.5
-     \]  
+```plaintext
+Income = Restocking Cost × Efficiency × 1.3
+Income = 700 × 0.9 × 1.3 = 819
 
 #### **Final Balance**  
    - Starting balance after restocking: $634.  
