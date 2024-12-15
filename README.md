@@ -13,6 +13,11 @@ A Java-based simulation project for managing a supermarket, created for the CSE1
 - **Name**: منةالله حربي الشربيني رمضان  
 - **Section**: 5  
 
+### **Notion Link**  
+
+For more details, visit our Notion page:  
+[Supermarket Management Simulator - Notion Page](https://overjoyed-gallon-36f.notion.site/Supermarket-Management-Simulator-157a5187b326800f80bbf54a4600a7e3?pvs=4)
+
 ---
 
 ## **What is the Supermarket Management Simulator?**
@@ -104,19 +109,83 @@ The Supermarket Management Simulator is a Java-based interactive game where play
    - Encapsulate attributes like efficiency, salary, and product cost.  
 
 ---
+## **Example Gameplay**
 
-## **Code Highlights**
+### **Scenario**  
+- **Starting Balance**: $1000  
 
-### **Initialization Block**
-```java
-double money = 1000;  
-double rent = 30;  
-double electricity = 15;  
-Employee emp1 = new Employee("Employee A", 0.90, 50);  
-Employee emp2 = new Employee("Employee B", 0.85, 40);  
-Employee emp3 = new Employee("Employee C", 0.95, 60);  
-Product dairy = new Product("Dairy", 70);  
-Product snacks = new Product("Snacks", 50);  
-Product frozenMeat = new Product("Frozen Meat", 150);  
-Product soda = new Product("Soda", 40);
+1. **Action 1: Hire Employee A**  
+   - **Details**: Employee A has 90% efficiency with a $50 salary.  
+   - **Updated Status**: Employee A is hired, and their efficiency will be applied to profit calculations.
 
+2. **Action 2: Restock 10 Boxes of Dairy**  
+   - **Cost Calculation**:  
+     - Dairy costs $70 per box.  
+     - Total cost = $70 × 10 = $700.  
+   - **Updated Balance**: $1000 - $700 = $300 (remaining after restocking).
+
+3. **Profit Calculation**:  
+   - **Restocking Cost**: $700.  
+   - **Efficiency Modifier**: 90% efficiency from Employee A.  
+   - **Income Formula**:  
+     \[
+     \text{Income} = \text{Restocking Cost} \times \text{Efficiency} \times 1.3  
+     = 700 \times 0.9 \times 1.3 = 819
+     \]  
+   - **Expenses**:  
+     - Rent: $30  
+     - Electricity: $15  
+     - Restocking Cost: $700  
+     - Employee Salary: $50  
+     - Total Expenses = $30 + $15 + $700 + $50 = $795.  
+   - **Profit Formula**:  
+     \[
+     \text{Profit} = \text{Income} - \text{Expenses}  
+     = 819 - 795 = 104
+     \]  
+
+4. **Updated Balance**:  
+   - Starting balance after restocking: $300.  
+   - Add profit: $300 + $104 = **$1104**.
+
+---
+
+### **Extended Scenario**  
+
+- After successfully restocking Dairy, the player decides to:  
+   1. Expand the supermarket for $100.  
+   2. Restock 5 boxes of Snacks ($50 each) and 3 boxes of Soda ($40 each).  
+
+#### **Step 1: Expand Supermarket**  
+   - Cost = $100.  
+   - Updated balance: $1104 - $100 = **$1004**.  
+
+#### **Step 2: Restock Snacks and Soda**  
+   - **Snacks**: 5 boxes × $50 = $250.  
+   - **Soda**: 3 boxes × $40 = $120.  
+   - Total restocking cost = $250 + $120 = **$370**.  
+   - Updated balance: $1004 - $370 = **$634**.
+
+#### **Profit Calculation for Extended Restocking**  
+   - **Restocking Cost**: $370.  
+   - **Efficiency Modifier**: 90% efficiency from Employee A.  
+   - **Income**:  
+     \[
+     \text{Income} = 370 \times 0.9 \times 1.3 = 433.5
+     \]  
+   - **Expenses**:  
+     - Rent: $30  
+     - Electricity: $15  
+     - Employee Salary: $50  
+     - Total Expenses = $30 + $15 + $50 = $95.  
+   - **Profit Formula**:  
+     \[
+     \text{Profit} = \text{Income} - \text{Expenses} = 433.5 - 95 = 338.5
+     \]  
+
+#### **Final Balance**  
+   - Starting balance after restocking: $634.  
+   - Add profit: $634 + $338.5 = **$972.5**.
+
+---
+Enjoy managing your supermarket and growing your business!
