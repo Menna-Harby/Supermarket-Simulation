@@ -172,9 +172,9 @@ Profit = Restocking Cost * Efficiency * 1.3 - Expenses
      - Rent: $30  
      - Electricity: $15  
      - Employee Salary: $50  
-     - Total Expenses = $30 + $15 + $50 = $95.  
+     - Total Expenses = $30 + $15 + $50 = $95.
+       
    - **Profit Formula**:  
-```plaintext
 Income = Restocking Cost × Efficiency × 1.3
 Income = 700 × 0.9 × 1.3 = 819
 
